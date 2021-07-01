@@ -11,3 +11,11 @@ with the command `snakemake -j [n]` where n is the number of process you will al
 For more control modify the `run.sh` (script that executes snakemake command) and `cluster.yml` (configuration file for executing in SLURM
 HPC setting) for what makes sense with your environment.
 
+## Rlooper execution
+
+All rlooper runs are executed with the command below where `{}` indicates a
+value filled in by snakemake at runtime.
+
+```
+./rlooper {input_random_seq} {output_path} --N auto --sigma -0.07 --localaverageenergy --minlength 30
+```

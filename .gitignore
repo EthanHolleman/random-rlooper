@@ -1,0 +1,5 @@
+*.fa
+*.fasta
+logs/
+testing/
+.snakemake/

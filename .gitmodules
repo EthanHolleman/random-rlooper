@@ -1,0 +1,3 @@
+[submodule "submodules/rlooper"]
+	path = submodules/rlooper
+	url = https://github.com/chedinlab/rlooper
